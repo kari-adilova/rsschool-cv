@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+.div-main {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	min-height: 100vh;
+	margin: auto;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	background-color: #d9f3d9;
+	justify-content: space-between;
+}
+.navigation {
+	padding: 10px;
+	font-size: 20px;
+	text-align: right;
+	color: #000000;
+	background-color: #c8ecce;
+}
+header {
+	display: flex;
+	background-color: #8bc783;
+	user-select: none;
+}
+.div-about-me {
+	flex-grow: 1;
+	align-self: center;
+	text-align: center;
+}
+.photo {
+	float: right;
+	width: 25%;
+	height: 25%;
+}
+main {
+	display: flex;
+	width: 100%;
+}
+.side-info {
+	padding: 10px;
+	flex-grow: 1;
+	float: left;
+	width: 30%;
+	background-color: #bdebc4;
+}
+.main-info {
+	padding: 10px;
+	width: 70%;
+	background-color: #77d8ab;
+}
+.experience h3 {
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+.education h3 {
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+.code-example h3 {
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid;
+}
+footer {
+	display: flex;
+	width: 100%;
+}
+.github-link {
+	padding: 10px;
+	width: 35%;
+	text-align: left;
+}
+.rs-logo {
+	float: right;
+	height: 30%;
+	width: 35%;
+}
+.div-year {
+	padding: 10px;
+	width: 30%;
+	text-align: center;
+}
